@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasar | Electronics Engineer & Innovator</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="nav-brand">AHAMED YASAR T<span>.</span></div>
+
+  <div class="nav-links">
+    <a href="#home">HOME</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#contact">CONTACT</a>
+  </div>
+
+  <a href="resume.jpg" download class="nav-resume-btn">Resume</a>
+</nav>
+
+
+<section id="home" class="hero-section">
+  <div class="hero-container">
+
+    <div class="hero-text">
+      <h1 class="hero-title">
+        HI, I'M <br />
+        <span class="gradient-text">AHAMED YASAR T</span>
+      </h1>
+
+      <p class="hero-description">
+        Electronics & Communication Engineering Student passionate about
+        building projects, solving real world problems, and sharing my
+        journey with developers.
+      </p>
+
+      <div class="social-pills">
+        <a href="https://github.com/ahamedyasar7/" target="_blank" class="github-pill">
+          GitHub <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ahamed-yasar-t-3b5780394"
+           target="_blank"
+           class="square-pill">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image-card">
+      <img src="profile.jpg" alt="Yasar Profile" />
+    </div>
+
+  </div>
+</section>
+
+
+<section class="stats-section">
+  <div class="stats-container">
+
+    <div class="stat-card">
+      <i class="fab fa-linkedin stat-icon"></i>
+      <div class="stat-number" data-target="9000">0</div>
+      <div class="stat-label">NETWORK</div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="projects" class="section">
+
+  <h2 class="section-heading">TOP PROJECTS</h2>
+  <div class="heading-line"></div>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+
+      <div class="project-category">
+        <span>HARDWARE // AGRICULTURE</span>
+        <span class="status-dot"></span>
+      </div>
+
+      <h3 class="project-title">
+        Smart Agriculture Using IoT
+      </h3>
+
+      <p class="project-desc">
+        IoT-based smart agriculture monitors soil, weather, and rain
+        prediction, enabling efficient irrigation, better yields,
+        reduced costs, and sustainable farming.
+      </p>
+
+      <div class="project-tags">
+        <span class="tag">ESP32</span>
+        <span class="tag">Firebase</span>
+        <span class="tag">AI</span>
+      </div>
+
+      <a href="#" class="explore-btn" id="agrismartExplore">
+        EXPLORE →
+      </a>
+
+    </div>
+
+
+    <div class="project-card">
+
+      <div class="project-category">
+        <span>AI // MOTION TRACKING</span>
+        <span class="status-dot purple-dot"></span>
+      </div>
+
+      <h3 class="project-title">
+        Spotify With Motion Control
+      </h3>
+
+      <p class="project-desc">
+        Gesture-controlled music player enables users to play, pause,
+        skip, and adjust volume using intuitive hand gestures.
+      </p>
+
+      <div class="project-tags">
+        <span class="tag">Motion Tracking</span>
+        <span class="tag">AI</span>
+      </div>
+
+      <a href="#" class="explore-btn">
+        EXPLORE →
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- AGRISMART MODAL -->
+
+<div class="project-modal" id="agrismartModal">
+
+  <div class="project-modal-content">
+
+    <button class="project-close" id="closeAgrismart">
+      <i class="fas fa-xmark"></i>
+    </button>
+
+
+    <div class="project-detail-hero">
+
+      <div class="project-detail-label">
+        HARDWARE // IoT // AGRICULTURE // AI
+      </div>
+
+      <h2>Agrismart<span>1.0</span></h2>
+
+      <p>
+        An IoT-based smart agriculture monitoring and decision-support
+        system combining embedded systems, web development and AI.
+      </p>
+
+      <div class="detail-tags">
+        <span>ESP32</span>
+        <span>IoT</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>AI</span>
+        <span>Web Dashboard</span>
+      </div>
+
+    </div>
+
+
+    <div class="project-main-image">
+      <div class="image-placeholder">
+        <i class="fas fa-seedling"></i>
+        <p>Your Agrismart project image will appear here</p>
+        <small>Add your image later</small>
+      </div>
+    </div>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">01</div>
+
+      <div>
+        <h3>PROJECT OVERVIEW</h3>
+
+        <p>
+          Agrismart1.0 is an IoT-based smart agriculture monitoring system
+          designed to bring multiple agricultural parameters into one
+          connected platform.
+        </p>
+
+        <p>
+          The system uses an ESP32 and multiple sensors to monitor soil
+          moisture, temperature, humidity, tank water level and rainfall.
+          The collected information is displayed through a web dashboard
+          for real-time monitoring and pump control.
+        </p>
+
+        <p>
+          An AI layer provides rain prediction and agriculture-related
+          recommendations using the available information, helping turn
+          raw sensor data into useful insights.
+        </p>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">02</div>
+
+      <div>
+        <h3>HOW I GOT THE IDEA</h3>
+
+        <p>
+          I got the idea for Agrismart1.0 from the need to make agriculture
+          smarter using technology.
+        </p>
+
+        <p>
+          I wanted to combine my interests in
+          <strong>IoT, embedded systems, web development, and AI</strong>
+          into one practical project.
+        </p>
+
+        <p>
+          I was particularly interested in how sensors could be used to
+          understand field conditions and how AI could help farmers make
+          better irrigation decisions.
+        </p>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">03</div>
+
+      <div>
+        <h3>THE PROBLEM I WANTED TO SOLVE</h3>
+
+        <p>
+          Farmers need to continuously monitor factors such as
+          <strong>soil moisture, temperature, humidity, rainfall,
+          and water availability.</strong>
+        </p>
+
+        <p>
+          Making irrigation decisions manually can sometimes lead to
+          unnecessary water usage.
+        </p>
+
+        <p>
+          I wanted to build a system that could provide these details
+          in one place and give useful suggestions based on the
+          collected information.
+        </p>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">04</div>
+
+      <div>
+        <h3>WHAT I BUILT</h3>
+
+        <p>
+          I built Agrismart1.0 using an
+          <strong>ESP32</strong> and multiple sensors.
+        </p>
+
+        <div class="feature-grid">
+
+          <div class="feature-card">
+            <i class="fas fa-droplet"></i>
+            <h4>Soil Monitoring</h4>
+            <p>Monitors soil moisture conditions.</p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fas fa-temperature-half"></i>
+            <h4>Environment</h4>
+            <p>Tracks temperature and humidity.</p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fas fa-water"></i>
+            <h4>Tank Level</h4>
+            <p>Monitors available water.</p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fas fa-cloud-rain"></i>
+            <h4>Rain Monitoring</h4>
+            <p>Tracks rainfall conditions.</p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fas fa-chart-line"></i>
+            <h4>Dashboard</h4>
+            <p>Provides real-time monitoring.</p>
+          </div>
+
+          <div class="feature-card">
+            <i class="fas fa-brain"></i>
+            <h4>AI Layer</h4>
+            <p>Provides rain prediction and recommendations.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">05</div>
+
+      <div>
+        <h3>HOW AGRISMART1.0 WORKS</h3>
+
+        <div class="workflow">
+
+          <div class="workflow-step">
+            <span>01</span>
+            <strong>SENSORS</strong>
+            <p>Collect field and environmental data.</p>
+          </div>
+
+          <div class="workflow-arrow">→</div>
+
+          <div class="workflow-step">
+            <span>02</span>
+            <strong>ESP32</strong>
+            <p>Processes sensor information.</p>
+          </div>
+
+          <div class="workflow-arrow">→</div>
+
+          <div class="workflow-step">
+            <span>03</span>
+            <strong>BACKEND</strong>
+            <p>Handles communication and data.</p>
+          </div>
+
+          <div class="workflow-arrow">→</div>
+
+          <div class="workflow-step">
+            <span>04</span>
+            <strong>DASHBOARD</strong>
+            <p>Displays the information.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">06</div>
+
+      <div>
+        <h3>MY EXPERIENCE WHILE BUILDING IT</h3>
+
+        <p>
+          Building Agrismart1.0 gave me experience in connecting hardware
+          with software.
+        </p>
+
+        <p>
+          I worked with the ESP32, sensors, relay, pump, backend APIs,
+          and web dashboard.
+        </p>
+
+        <p>
+          One of the most interesting parts was understanding how data
+          moves from a physical sensor to the backend and finally appears
+          on the website.
+        </p>
+
+        <p>
+          It helped me understand how different technologies can work
+          together as one complete system.
+        </p>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">07</div>
+
+      <div>
+        <h3>CHALLENGES I FACED</h3>
+
+        <div class="challenge-grid">
+
+          <div class="challenge-card">
+            <i class="fas fa-microchip"></i>
+            <h4>ESP32 Communication</h4>
+            <p>
+              Getting reliable communication between the ESP32
+              and other components.
+            </p>
+          </div>
+
+          <div class="challenge-card">
+            <i class="fas fa-plug"></i>
+            <h4>Sensor Integration</h4>
+            <p>
+              Connecting and testing different sensors correctly.
+            </p>
+          </div>
+
+          <div class="challenge-card">
+            <i class="fas fa-arrows-rotate"></i>
+            <h4>Real-Time Updates</h4>
+            <p>
+              Keeping sensor information updated on the dashboard.
+            </p>
+          </div>
+
+          <div class="challenge-card">
+            <i class="fas fa-server"></i>
+            <h4>Backend Connectivity</h4>
+            <p>
+              Handling communication between hardware and backend APIs.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">08</div>
+
+      <div>
+        <h3>HOW I SOLVED THEM</h3>
+
+        <p>
+          I solved the problems by testing each component separately
+          before integrating everything.
+        </p>
+
+        <p>
+          I checked sensor readings individually, tested ESP32
+          communication, verified API requests and responses, and
+          connected the components step by step.
+        </p>
+
+        <p>
+          I also used debugging and repeated testing to identify whether
+          an issue was coming from the hardware, backend, or frontend.
+        </p>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section gallery-section">
+
+      <div class="detail-number">09</div>
+
+      <div>
+        <h3>PROJECT GALLERY</h3>
+
+        <p class="gallery-intro">
+          Development process, hardware prototype, dashboard and
+          project implementation.
+        </p>
+
+        <div class="gallery-grid">
+
+          <div class="gallery-placeholder">
+            <i class="fas fa-image"></i>
+            <span>Project Image 01</span>
+          </div>
+
+          <div class="gallery-placeholder">
+            <i class="fas fa-image"></i>
+            <span>Project Image 02</span>
+          </div>
+
+          <div class="gallery-placeholder">
+            <i class="fas fa-image"></i>
+            <span>Project Image 03</span>
+          </div>
+
+          <div class="gallery-placeholder">
+            <i class="fas fa-image"></i>
+            <span>Project Image 04</span>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">10</div>
+
+      <div>
+        <h3>WHAT I LEARNED</h3>
+
+        <p>
+          Through this project, I learned how to build an end-to-end
+          <strong>IoT application.</strong>
+        </p>
+
+        <div class="learning-tags">
+          <span>ESP32</span>
+          <span>Sensors</span>
+          <span>APIs</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>JWT Authentication</span>
+          <span>Web Dashboards</span>
+          <span>Relay Control</span>
+          <span>AI Recommendations</span>
+        </div>
+
+        <p>
+          More importantly, I learned how to troubleshoot problems across
+          both hardware and software instead of treating them as separate
+          systems.
+        </p>
+      </div>
+
+    </section>
+
+
+    <section class="detail-section">
+
+      <div class="detail-number">11</div>
+
+      <div>
+        <h3>FUTURE IMPROVEMENTS</h3>
+
+        <p>
+          Agrismart1.0 is something I want to continue improving.
+        </p>
+
+        <ul class="future-list">
+          <li>More accurate AI-based crop recommendations</li>
+          <li>Improved rain prediction</li>
+          <li>Historical data analysis</li>
+          <li>Mobile support</li>
+          <li>Multiple-field monitoring</li>
+          <li>Advanced water-usage analytics</li>
+          <li>Improved sensor reliability</li>
+          <li>Support for multiple farms and crops</li>
+        </ul>
+      </div>
+
+    </section>
+
+
+    <div class="project-detail-footer">
+
+      <div>
+        <span>PROJECT</span>
+        <h3>Agrismart1.0</h3>
+      </div>
+
+      <a href="https://github.com/ahamedyasar7/"
+         target="_blank"
+         class="detail-github-btn">
+        <i class="fab fa-github"></i>
+        VIEW GITHUB
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
+
+<section id="skills" class="section">
+
+  <h2 class="section-heading">SKILLS</h2>
+  <div class="heading-line"></div>
+
+  <div class="skills-grid">
+    <div class="skill-tag">JavaScript</div>
+    <div class="skill-tag">React.js</div>
+    <div class="skill-tag">HTML5 & CSS3</div>
+    <div class="skill-tag">Node.js</div>
+    <div class="skill-tag">Python</div>
+    <div class="skill-tag">Git & GitHub</div>
+    <div class="skill-tag">UI/UX Designing</div>
+    <div class="skill-tag">C Programming</div>
+  </div>
+
+</section>
+
+
+<section id="contact" class="section contact-section">
+
+  <h2 class="connect-title">LET'S CONNECT</h2>
+
+  <div class="connect-card">
+
+    <p class="connect-sub">
+      Open for <strong>Internships, Collaborations</strong>,
+      and building high-impact tech solutions.
+    </p>
+
+    <a href="mailto:ahamedyasar01@email.com" class="email-display">
+      ahamedyasar01@email.com
+    </a>
+
+    <div class="connect-buttons">
+
+      <a href="https://www.linkedin.com/in/ahamed-yasar-t-3b5780394"
+         target="_blank"
+         class="connect-btn">
+        <i class="fab fa-linkedin"></i> LINKEDIN
+      </a>
+
+      <a href="https://github.com/ahamedyasar7/"
+         target="_blank"
+         class="connect-btn">
+        <i class="fab fa-github"></i> GITHUB
+      </a>
+
+      <a href="https://wa.me/+916383521484"
+         target="_blank"
+         class="connect-btn">
+        <i class="fab fa-whatsapp"></i> WHATSAPP
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
